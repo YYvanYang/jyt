@@ -1,0 +1,308 @@
+.main-body {
+    margin-left:200px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+/*
+  ========================================
+  Primary Header
+  ========================================
+*/
+.primary-header {
+    position: fixed;
+    z-index: 1000;
+    height: 70px;
+    width:100%;
+    border-bottom: 1px solid #dedede;
+}
+
+.primary-header .logo {
+    float: left;
+    width: 200px;
+    height: 100%;
+    padding-left:54px;
+    padding-top:24px;
+    background: #f5f5f5;
+}
+
+.primary-header .logo img {
+    width: 102px;
+    height: 21px;
+}
+
+.primary-header .header-nav {
+    background: #fff;
+    height: 100%;
+}
+
+.primary-header .header-nav .nav-list {
+    float: right;
+    padding-right:20px;
+    position: relative;
+}
+
+.primary-header .header-nav .nav-list .icon-alert,
+.primary-header .header-nav .nav-list .icon-list,
+.primary-header .header-nav .nav-list .icon-user {
+    float: right;
+}
+
+
+.primary-header .header-nav .nav-list .icon-alert {
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    position: relative;
+    margin:25px 35px 0;
+    background: url(../img/icon-list/icon-alert.png) no-repeat;
+    cursor: pointer;
+}
+
+.primary-header .header-nav .nav-list .icon-alert .icon-alert-number {
+    position: absolute;
+    min-width: 13px;
+    height: 13px;
+    top:-6px;
+    left:16px;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    padding:2px 4px;
+    border-radius: 13px;
+    background-color: #ff2400;
+}
+
+.primary-header .header-nav .nav-list .icon-list {
+    margin-top: 25px;
+}
+
+.primary-header .header-nav .nav-list .icon-list .icon {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin:0 10px;
+    cursor: pointer;
+}
+
+.primary-header .header-nav .nav-list .icon-list .icon-question {
+    background: url(../img/icon-list/icon-question.png) no-repeat;
+}.primary-header .header-nav .nav-list .icon-list .icon-company {
+     background: url(../img/icon-list/icon-company.png) no-repeat;
+ }.primary-header .header-nav .nav-list .icon-list .icon-people {
+      background: url(../img/icon-list/icon-people.png) no-repeat;
+  }.primary-header .header-nav .nav-list .icon-list .icon-phone {
+       background: url(../img/icon-list/icon-phone.png) no-repeat;
+   }
+
+.primary-header .header-nav .nav-list .icon-user {
+    width: 28px;
+    height: 28px;
+    margin-top: 17.5px;
+    margin-left:10px;
+    background: url(../img/icon-list/icon-user.png) no-repeat;
+    cursor: pointer;
+}
+
+/*
+  ========================================
+  Left Aside
+  ========================================
+*/
+
+.left-aside {
+    width: 200px;
+    top:70px;
+    left:0;
+    z-index: 1000;
+    display: block;
+    position: fixed;
+    height: 100%;
+    background: #13334e;
+}
+
+.left-aside .user-profile {
+    padding-top:20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.left-aside .nav-nemu-list {
+    margin-top: 20px;
+}
+
+.left-aside .nav-nemu-list .nav-item {
+    padding-left:70px;
+    height: 65px;
+    line-height: 65px;
+    border-left: 3px solid transparent;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.left-aside .nav-nemu-list .nav-item.active,
+.left-aside .nav-nemu-list .nav-item:hover{
+    background: #03579c;
+    border-left: 3px solid #007ae1;
+    cursor: pointer;
+}
+
+.left-aside .nav-nemu-list .nav-item .item {
+    position: relative;
+    color:#fff;
+}
+.left-aside .nav-nemu-list .nav-item .item:before {
+    position: absolute;
+    content: '';
+    display: block;
+}
+
+.left-aside .nav-nemu-list .nav-item .member-center:before {
+    width: 21px;
+    height: 21px;
+    left:-40px;
+    top:50%;
+    margin-top: -10.5px;
+    background: url(../img/nav-list/member-center.png) no-repeat;
+}.left-aside .nav-nemu-list .nav-item .service-center:before {
+     width: 21px;
+     height: 21px;
+     left:-40px;
+     top:50%;
+     margin-top: -10.5px;
+     background: url(../img/nav-list/icon-service-center.png) no-repeat;
+ }.left-aside .nav-nemu-list .nav-item .my-reports:before {
+      width: 20px;
+      height: 16px;
+      left:-40px;
+      top:50%;
+      margin-top: -8px;
+      background: url(../img/nav-list/icon-my-reports.png) no-repeat;
+  }.left-aside .nav-nemu-list .nav-item .my-favorites:before {
+       width: 20px;
+       height: 16px;
+       left:-40px;
+       top:50%;
+       margin-top: -8px;
+       background: url(../img/nav-list/icon-my-favorites.png) no-repeat;
+   }.left-aside .nav-nemu-list .nav-item .setting:before {
+        width: 20px;
+        height: 20px;
+        left:-40px;
+        top:50%;
+        margin-top: -10px;
+        background: url(../img/nav-list/icon-setting.png) no-repeat;
+    }.left-aside .nav-nemu-list .nav-item .my-account:before {
+         width: 20px;
+         height: 21px;
+         left:-40px;
+         top:50%;
+         margin-top: -10.5px;
+         background: url(../img/nav-list/icon-my-account.png) no-repeat;
+     }
+
+
+/*
+========================================
+Main Content
+========================================
+*/
+
+.main-content {
+    /*margin-left: 200px;*/
+    padding:20px;
+    /*border-top:1px solid #dedede;*/
+}
+
+.main-content .box-section {
+    margin-top:20px;
+    margin-bottom:20px;
+    border:1px solid #dedede;
+    background:#fff;
+    color:#333333;
+    font-size: 12px;
+}
+
+/*
+========================================
+Footer
+========================================
+*/
+
+.footer {
+    display: block;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width:100%;
+    font-size: 12px;
+    color:#717272;
+    padding-left:200px;
+}
+
+.footer .footer-content {
+    margin-left:190px;
+}
+
+.footer .copyright,
+.footer .contact-us {
+    float: left;
+    line-height: 54px;
+    margin-right: 112px;
+}
+
+.footer .contact-us .contact-phone,
+.footer .contact-us .contact-mail {
+    color:#717272;
+    padding: 0 10px;
+
+}
+
+/*
+========================================
+box-section
+========================================
+*/
+.main-content .box-section .section-header {
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-left:30px;
+}
+
+.main-content .box-section .section-header {
+
+    border-bottom: 1px solid #dcdcdc;
+
+}
+.main-content .box-section .section-header .more {
+    float:right;
+    margin-right:30px;
+}
+.main-content .box-section .section-header .more a {
+    color:#696969;
+}
+
+/*
+========================================
+breadcrumb
+========================================
+*/
+
+.breadcrumb li {
+    float: left;
+    color:#333333;
+}
+
+.breadcrumb a {
+    color:#333333;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #333333;
+    content: ">";
+}
