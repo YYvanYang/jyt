@@ -1,0 +1,40 @@
+.main-content .box-section form {
+    margin: 38px 0 38px 376px;
+}
+
+form .form-group .form-button {
+    min-width:143px;
+    height: 32px;
+    border:1px solid #1a99f7;
+    color:#1a99f7;
+    background: #fff;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+form .form-group .field-label,
+form .form-group .field-control {
+    float:left;
+    line-height: 40px;
+}
+
+form .form-group .field-label{
+    width:105px;
+}
+
+form .form-group .field-text {
+    display: inline-block;
+    min-width:110px;
+    padding-right: 5px;
+}
+
+form .form-group .form-button[type="submit"] {
+    margin:35px 145px 0;
+    background: #1a99f7;
+    color:#fff;
+}
+
+
+
+
+

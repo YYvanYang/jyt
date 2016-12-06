@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>areaSelect example</title>
+  <link rel="stylesheet" href="/static/js/JM-areaSelect-0822/areaSelect.css">
+</head>
+
+<body>
+<form id="bbc">
+  <div class="jm-areaselect jm-areaselect1">
+    <input type="text" class="input" readonly>
+  </div>
+
+  <div class="jm-areaselect jm-areaselect2">
+    <input type="text" class="input" readonly>
+  </div>
+  <input type="button" onclick="submitbbc()" value="提交"/>
+</form>
+  <script src="/static/js/JM-areaSelect-0822/jquery.js"></script>
+  <script src="/static/js/JM-areaSelect-0822/areaSelect-1.0.js"></script>
+  <!--<script src="areaSelect.js"></script>-->
+  <script>
+  // 初始化实例
+  $(function(){
+    d=new JMareaSelect($('.jm-areaselect1'),{
+      levelsMode: 'area',                                             // 选择模式，默认为area ( port:海运  innerport:内河航运  area:省市区 )
+//      defaultValue:{0:{value:"中国",id:2},1:{value:"安庆",id:21}},     // 默认值
+      ajaxUrl: '/common/'                     // 数据接口基础地址
+    })
+
+    z=new JMareaSelect($('.jm-areaselect2'))
+  })
+function submitbbc() {
+  console.log(d.getValue())
+  console.log(d.getStrValue())
+  console.log($('#bbc'))
+  console.log($('#bbc').serialize())
+}
+  </script>
+</body>
+
+</html>

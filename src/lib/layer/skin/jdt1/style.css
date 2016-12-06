@@ -1,0 +1,57 @@
+html #layui_layer_skinjdt1stylecss{display:none; position: absolute; width:1989px;}
+
+body .layer-ext-jdt1{
+	max-height:	635px;
+	border-radius: 9px;	
+}
+@media screen and (max-height: 768px){
+	max-height: 600px;
+}
+body .layer-ext-jdt1 .layui-layer-title{
+	border-radius: 9px 9px 0 0;
+	color: white;
+	background-color: #2E8DED;
+}
+body .layer-ext-jdt1 .layui-layer-title  i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+	margin: -2px 6px 0 0;
+	vertical-align: middle;
+}
+body .layer-ext-jdt1 .layui-layer-title  i.icon-add{
+	background: url(./icons.png) no-repeat 0 0;
+}
+body .layer-ext-jdt1 .layui-layer-title  i.icon-view{
+	background: url(./icons.png) no-repeat -36px 0;
+}
+body .layer-ext-jdt1 .layui-layer-title  i.icon-edit{
+	background: url(./icons.png) no-repeat -18px 0;
+}
+body .layer-ext-jdt1 .layui-layer-setwin .layui-layer-close1{
+	position: absolute;
+    right: -28px;
+    top: -28px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    background-position: -149px -31px;
+	
+}
+body .layer-ext-jdt1 .layui-layer-btn{}
+body .layer-ext-jdt1 .layui-layer-btn a{}
+body .layer-ext-jdt1.layer-ext-jdt1-msg{
+    min-width: 100px;
+    background-color: #000;
+    filter: alpha(opacity=60);
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    border: none;
+}
+
+/**** for ext ******/
+
+body .layui-layer-page.layui-layer-prompt .layui-layer-content{
+    padding: 20px;
+
+}
